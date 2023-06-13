@@ -47,4 +47,4 @@ if __name__ == "__main__":
 ![image](https://github.com/yjg30737/pyqt-openai-formatted-response-example/assets/55078043/89f440fb-2aa0-43f3-aaf9-8381c3fd8cec)
 
 ## Note
-Programming language detection is not quite accurate.
+Please remember that programming language detection by `guess_lexer` by pygments is not quite accurate.
