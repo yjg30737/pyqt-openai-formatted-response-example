@@ -1,4 +1,16 @@
+import os
+import sys
+
 import pyperclip
+
+# Get the absolute path of the current script file
+script_path = os.path.abspath(__file__)
+
+# Get the root directory by going up one level from the script directory
+project_root = os.path.dirname(os.path.dirname(script_path))
+
+sys.path.insert(0, project_root)
+sys.path.insert(0, os.getcwd())  # Add the current directory as well
 
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QTextBrowser, QApplication, QHBoxLayout, QSpacerItem, \
