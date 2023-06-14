@@ -1,4 +1,5 @@
 # pyqt-openai-formatted-response-example
+
 Implementing response of ChatGPT(plain text and source) as desktop application with Python (PyQt)
 
 This simple app demonstrates how to create a John-like response using PyQt, which includes both plain text and source code.
@@ -17,6 +18,8 @@ In this code snippet, the `for` loop iterates 10 times. During each iteration, i
 ``````
 
 This app utilizes a `QLabel` widget for the plain text portion and a `QTextBrowser` widget for the source code section. menu which includes a copy button is attached to the source code section.
+
+check out <a href="https://github.com/yjg30737/pyqt-openai">pyqt-openai</a> as well :)
 
 ## Requirements
 * PyQt5 >= 5.14
